@@ -1,0 +1,39 @@
+h1 {
+font-family: "Palatino";
+font-size: 75px;
+font-weight: 10px;
+color: #FA8072; 
+}
+
+
+.header {
+ text-align: center;
+}
+
+body {
+	background-image: url("../images/skulls.png");
+}
+
+
+.wrapper {
+	display: none;
+	border: solid;
+	background-color: #FFF5EE;
+	text-align: center;
+}
+
+
+#start{
+  margin-top: 10%;
+  border:2px solid #FA8072;
+  background: #FFF5EE;;
+}
+
+button{
+  display:block;
+  width:50%;
+  height:20%;
+  margin: 0 auto;
+  border:none;
+  font-size: 30px;;
+}
