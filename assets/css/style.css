@@ -3,25 +3,31 @@ font-family: "Palatino";
 font-size: 75px;
 font-weight: 10px;
 color: #FA8072; 
+text-align: center;
 }
 
 
-.header {
- text-align: center;
+h3 {
+font-family: "Palatino";
+font-size: 20px;
 }
+
+.timer {
+padding-top: 10px;
+text-align: center
+
+}
+
 
 body {
 	background-image: url("../images/skulls.png");
 }
 
-
-.wrapper {
-	display: none;
-	border: solid;
-	background-color: #FFF5EE;
-	text-align: center;
+.quiz {
+  margin-top: 20px;
+  text-align: center;
+  border-style: solid;
 }
-
 
 #start{
   margin-top: 10%;

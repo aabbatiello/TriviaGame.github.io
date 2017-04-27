@@ -5,17 +5,55 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
+	
 <body>
 
-<div id="wrapper">
-	<h1 class="header">Totally Hipster Trivia!</h1>
-<div id="subwrapper">
-<div id="quiz-area">
-        <button id="start">Start</button>
-		</div>
+  <div class="header">
+   <h1>Totally Hipster Trivia!</h1>
+    <div id="results">
 	</div>
-</div>		
+  </div>
 
+<div class="timer"
+ <span id="timer">timer</span>
+</div>
+<div class=quiz>
+  <form name="quiz" onsubmit="return onSubmit()">
+<div class=question>
+  <h3>What kind of jeans do you prefer?</h3>
+  <input type ="radio" name="q1" value="a">skinny 
+  <input type ="radio" name="q1" value="b">baggy 
+  <input type ="radio" name="q1" value="c">boot cut 
+</div><br>
+<div class=question>
+  <h3>What kind of cigarettes do you smoke?</h3>
+  <input type ="radio" name="q2" value="a">Marlboro Lights
+  <input type ="radio" name="q2" value="b">American Spirits
+  <input type ="radio" name="q2" value="c">Newports
+ </div><br>
+ <div class=question>
+  <h3>How do you prefer to get around?</h3>
+  <input type ="radio" name="q3" value="a">Prius
+  <input type ="radio" name="q3" value="b">Hummer
+  <input type ="radio" name="q3" value="c">Lamborghini
+ </div><br>
+ <div class=question>
+  <h3>Which of these beers would you bring to a party?</h3>
+  <input type ="radio" name="q4" value="a">Budwiser
+  <input type ="radio" name="q4" value="b">Corona
+  <input type ="radio" name="q4" value="c">Brooklyn
+  </div><br>
+  <div class=question>
+  <h3>Which of these authors would you prefer reading?</h3>
+  <input type ="radio" name="q5" value="a">Ernest Hemingway
+  <input type ="radio" name="q5" value="b">Geroge Orwall
+  <input type ="radio" name="q5" value="c">Jack Keraouac
+ <div><br>
+<button type="submit">Done</button>
+</div>
+</body>
+</html>
 
 <!-- adding jQuery -->
 
@@ -25,3 +63,6 @@
 
 </body>
 </html>
+
+
+<!--  <button id="start">Start</button>-->
