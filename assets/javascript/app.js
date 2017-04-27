@@ -33,7 +33,7 @@ restart();
 }
 
 
-var count=15;
+var count=20;
 
 var counter=setInterval(timer, 1000); 
 

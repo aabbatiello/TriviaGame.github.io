@@ -35,6 +35,11 @@ body {
   background: #FFF5EE;;
 }
 
+#question{
+  border-style: solid;
+
+}
+
 button{
   display:block;
   width:50%;
